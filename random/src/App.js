@@ -52,7 +52,7 @@ class App extends React.Component {
 
     return (
       <div>
-        <h1>アイスブレイクネタシャッフル！</h1>
+        <h1>アイスブレイクシャッフル！</h1>
         <div className="formArea">
           <input type='text' value={ this.state.question} onChange={e => this.onChange(e)} 
           placeholder="ネタはここに入力！" />
