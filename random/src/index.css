@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin-left: 200px;
+  margin-right: 200px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,59 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  text-align: center;
+  background-color: lightgray;
+}
+
+.formArea {
+  text-align: center;
+}
+
+.formArea input {
+  font-size: 16px;
+}
+
+.formArea button {
+  font-size: 16px;
+}
+
+.listArea {
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  padding-left: 0px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.vasePic {
+  text-align: center;
+}
+
+.vasePic img {
+  width: 250px;
+  height: auto;
+}
+
+.shuffleBtn {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.shuffleBtn button {
+  font-size: 28px;
+}
+
+.box {
+  text-align: center;
+  font-size: 30px;
+  background-color: lightgray;
 }
